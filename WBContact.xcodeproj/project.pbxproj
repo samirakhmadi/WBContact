@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		371BC88D2C1572D800AB2D1E /* WBContactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC88C2C1572D800AB2D1E /* WBContactApp.swift */; };
-		371BC88F2C1572D800AB2D1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC88E2C1572D800AB2D1E /* ContentView.swift */; };
 		371BC8912C1572D900AB2D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371BC8902C1572D900AB2D1E /* Assets.xcassets */; };
 		371BC8942C1572D900AB2D1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371BC8932C1572D900AB2D1E /* Preview Assets.xcassets */; };
+		371BC89D2C15738000AB2D1E /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC89C2C15738000AB2D1E /* ContactDetailView.swift */; };
+		371BC89F2C1573AC00AB2D1E /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC89E2C1573AC00AB2D1E /* ContactListView.swift */; };
+		371BC8A12C1573C800AB2D1E /* ContactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC8A02C1573C800AB2D1E /* ContactsData.swift */; };
+		371BC8A32C1573DC00AB2D1E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC8A22C1573DC00AB2D1E /* Contact.swift */; };
+		371BC8A52C15767C00AB2D1E /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC8A42C15767C00AB2D1E /* BottomBarView.swift */; };
+		371BC8A72C1576D900AB2D1E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC8A62C1576D900AB2D1E /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		371BC8892C1572D800AB2D1E /* WBContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		371BC88C2C1572D800AB2D1E /* WBContactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBContactApp.swift; sourceTree = "<group>"; };
-		371BC88E2C1572D800AB2D1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		371BC8902C1572D900AB2D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		371BC8932C1572D900AB2D1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		371BC89C2C15738000AB2D1E /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		371BC89E2C1573AC00AB2D1E /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		371BC8A02C1573C800AB2D1E /* ContactsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsData.swift; sourceTree = "<group>"; };
+		371BC8A22C1573DC00AB2D1E /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		371BC8A42C15767C00AB2D1E /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		371BC8A62C1576D900AB2D1E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				371BC88C2C1572D800AB2D1E /* WBContactApp.swift */,
-				371BC88E2C1572D800AB2D1E /* ContentView.swift */,
+				371BC89C2C15738000AB2D1E /* ContactDetailView.swift */,
+				371BC8A62C1576D900AB2D1E /* SearchBar.swift */,
+				371BC8A42C15767C00AB2D1E /* BottomBarView.swift */,
+				371BC89E2C1573AC00AB2D1E /* ContactListView.swift */,
+				371BC8A02C1573C800AB2D1E /* ContactsData.swift */,
+				371BC8A22C1573DC00AB2D1E /* Contact.swift */,
 				371BC8902C1572D900AB2D1E /* Assets.xcassets */,
 				371BC8922C1572D900AB2D1E /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371BC88F2C1572D800AB2D1E /* ContentView.swift in Sources */,
+				371BC8A72C1576D900AB2D1E /* SearchBar.swift in Sources */,
+				371BC89F2C1573AC00AB2D1E /* ContactListView.swift in Sources */,
+				371BC89D2C15738000AB2D1E /* ContactDetailView.swift in Sources */,
+				371BC8A32C1573DC00AB2D1E /* Contact.swift in Sources */,
+				371BC8A52C15767C00AB2D1E /* BottomBarView.swift in Sources */,
+				371BC8A12C1573C800AB2D1E /* ContactsData.swift in Sources */,
 				371BC88D2C1572D800AB2D1E /* WBContactApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +299,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +328,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
